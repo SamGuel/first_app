@@ -9,7 +9,7 @@ gem 'sqlite3-ruby', '1.3.2', :group => :development
 
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
-
+group :assets do
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -18,7 +18,7 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
-
+end
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
